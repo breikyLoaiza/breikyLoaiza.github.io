@@ -1,11 +1,11 @@
-class MiFooter extends HTMLElement {​​
+class MiFooter extends HTMLElement {
 
-  connectedCallback() {​​
+  connectedCallback() {
 
     this.innerHTML = /* html */
 
       `Copyright &copy; Loaiza Sebastian Jose Luis`;
 
- }​​}​​
+ }}
 
 customElements.define("mi-footer", MiFooter);
